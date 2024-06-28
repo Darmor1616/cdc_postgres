@@ -80,3 +80,10 @@ You can modify the Docker Compose file to suit your needs
 
 ## Note
 This setup is intended for development and testing purposes. For production environments, consider additional factors like security, scalability, and data persistence.
+
+## Acknowledgements
+This setup is based on and inspired by the following GitHub repositories:
+
+- [changecapture-e2e by airscholar](https://github.com/airscholar/changecapture-e2e)
+- [kafka-clickhouse-docker by apoyan](https://github.com/apoyan/kafka-clickhouse-docker/blob/master/docker-compose.yml)
+
