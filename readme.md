@@ -6,7 +6,6 @@ Before running this script, ensure you have the following installed:
 - Python 3.9+
 - `psycopg2` library for Python
 - `faker` library for Python
-- PostgreSQL server running locally or accessible remotely
 - Docker and Docker Compose installed on your machine.
 - Basic understanding of Docker, Kafka, and Postgres.
 
