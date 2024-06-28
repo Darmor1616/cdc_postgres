@@ -1,4 +1,4 @@
-# CDC with Debezium, Kafka, Postgres, Docker 
+# CDC with Postgres, Debezium, Kafka, Clickhouse, Superset, Docker
 
 ## Prerequisites
 
@@ -28,6 +28,8 @@ Before running this script, ensure you have the following installed:
 - **Debezium:** An open-source distributed platform for change data capture.
 - **Debezium UI:** A user interface for managing and monitoring Debezium connectors.
 - **Postgres:** An open-source relational database
+- **ClickHouse:** A fast open-source columnar database management system for real-time analytics using SQL.
+- **Superset**: An open-source data exploration and visualization platform.
 
 > Why use Debezium? 
 > 
@@ -63,6 +65,7 @@ Before running this script, ensure you have the following installed:
 5. **Accessing the Services:**
    - Kafka Control Center is accessible at `http://localhost:9021`.
    - Debezium UI is accessible at `http://localhost:8080`.
+   - Superset is accessible at http://localhost:8088.
    - Postgres is accessible on the default port `5432`.
 
 6. **Shutting Down:**
